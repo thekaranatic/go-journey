@@ -28,8 +28,27 @@ func conjunction_op(){
 	fmt.Println(a)
 }
 
+func comp_oprs(){
+	var a, b int = 15, 25
+
+	fmt.Println(a == b)
+	fmt.Println(a != b)
+	fmt.Println(a < b)
+	fmt.Println(a > b)
+	fmt.Println(a <= b)
+	fmt.Println(a >= b)
+}
+
+func logical_oprs(){
+	var x, y, z = 10, 20, 30
+	fmt.Println(x<y && z<y)
+	fmt.Println(x<y || z>y)
+	fmt.Println(!(x<y || z>y))
+}
 
 func main(){
-	incr_decr()
-	conjunction_op()
+	// incr_decr()
+	// conjunction_op()
+	// comp_oprs()
+	logical_oprs()
 }
