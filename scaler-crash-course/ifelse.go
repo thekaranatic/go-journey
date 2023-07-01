@@ -15,16 +15,27 @@ func ifElse(){
 
 func ifElse_one(){
 	sum := 10
-	sum := 20
+	sum += 20
 
 	if sum == 40 {
 		fmt.Println("equal to 40")
 	} else {
-		fmt.Println("soem other value other than 40")
+		fmt.Println("some other value other than 40")
+	}
+}
+
+func ifElse_two(){
+	sum := 10
+
+	if sum += 20; sum == 40 {
+		fmt.Println("equal to 40")
+	} else {
+		fmt.Println("some other value other than 40")
 	}
 }
 
 func main(){
 	ifElse()
 	ifElse_one()
+	ifElse_two()
 }
