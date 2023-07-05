@@ -53,7 +53,7 @@ func float_32(){
 
 
 func main(){
-	// decl()
+	// decrl()
 	// decl_2()
 	// chained_assmnt()
 	// walrus()
